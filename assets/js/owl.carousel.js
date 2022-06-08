@@ -1,29 +1,6 @@
-/**
- * Owl Carousel v2.3.4
- * Copyright 2013-2018 David Deutsch
- * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
- */
-/**
- * Owl carousel
- * @version 2.3.4
- * @author Bartosz Wojciechowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- * @todo Lazy Load Icon
- * @todo prevent animationend bubling
- * @todo itemsScaleUp
- * @todo Test Zepto
- * @todo stagePadding calculate wrong active classes
- */
+\
 ;(function($, window, document, undefined) {
 
-	/**
-	 * Creates a carousel.
-	 * @class The Owl Carousel.
-	 * @public
-	 * @param {HTMLElement|jQuery} element - The element to create the carousel for.
-	 * @param {Object} [options] - The options
-	 */
 	function Owl(element, options) {
 
 		/**
@@ -1763,11 +1740,6 @@
  */
 ;(function($, window, document, undefined) {
 
-	/**
-	 * Creates the auto refresh plugin.
-	 * @class The Auto Refresh Plugin
-	 * @param {Owl} carousel - The Owl Carousel
-	 */
 	var AutoRefresh = function(carousel) {
 		/**
 		 * Reference to the core.
@@ -1866,13 +1838,6 @@
 
 })(window.Zepto || window.jQuery, window, document);
 
-/**
- * Lazy Plugin
- * @version 2.3.4
- * @author Bartosz Wojciechowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- */
 ;(function($, window, document, undefined) {
 
 	/**
@@ -2477,13 +2442,6 @@
 
 })(window.Zepto || window.jQuery, window, document);
 
-/**
- * Animate Plugin
- * @version 2.3.4
- * @author Bartosz Wojciechowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- */
 ;(function($, window, document, undefined) {
 
 	/**
@@ -2599,22 +2557,8 @@
 
 })(window.Zepto || window.jQuery, window, document);
 
-/**
- * Autoplay Plugin
- * @version 2.3.4
- * @author Bartosz Wojciechowski
- * @author Artus Kolanowski
- * @author David Deutsch
- * @author Tom De Caluwé
- * @license The MIT License (MIT)
- */
 ;(function($, window, document, undefined) {
 
-	/**
-	 * Creates the autoplay plugin.
-	 * @class The Autoplay Plugin
-	 * @param {Owl} scope - The Owl Carousel
-	 */
 	var Autoplay = function(carousel) {
 		/**
 		 * Reference to the core.
@@ -2833,21 +2777,9 @@
 
 })(window.Zepto || window.jQuery, window, document);
 
-/**
- * Navigation Plugin
- * @version 2.3.4
- * @author Artus Kolanowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- */
 ;(function($, window, document, undefined) {
 	'use strict';
 
-	/**
-	 * Creates the navigation plugin.
-	 * @class The Navigation Plugin
-	 * @param {Owl} carousel - The Owl Carousel.
-	 */
 	var Navigation = function(carousel) {
 		/**
 		 * Reference to the core.
@@ -3240,13 +3172,6 @@
 
 })(window.Zepto || window.jQuery, window, document);
 
-/**
- * Hash Plugin
- * @version 2.3.4
- * @author Artus Kolanowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- */
 ;(function($, window, document, undefined) {
 	'use strict';
 
